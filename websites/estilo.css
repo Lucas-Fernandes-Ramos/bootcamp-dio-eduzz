@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+    background-color: #eae2b7;
+}
+#titulo{
+    color: #003049;
+    font-family: 'Fredericka the Great', cursive;
+}
+#cabecalho{
+    text-align: center;
+    padding: 10px;
+}
+#cabecalho ul{
+  text-decoration: none;
+}
+h4{
+    color: #d62828;
+    font-weight: bold;   
+}
+
+#tela-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+#tela-inicial ul, li{
+    text-decoration: none;
+     display: flex;
+     justify-content: space-around;
+     font-size: 50px;
+
+}
+main{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.fa-github{
+    color: black;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin{
+    color:#0e76a8 ;
+}
